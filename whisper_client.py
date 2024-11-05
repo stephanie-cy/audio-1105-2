@@ -5,7 +5,7 @@ import ffmpeg
 
 st.set_page_config(page_title="Whisper Speech Recognition", page_icon=":studio_microphone:")
 st.title(":studio_microphone: Speech Recognition")
-st.markdown("Upload an audio file you wish to have translated")
+st.markdown("Upload an audio file you wish to have translated!!!")
 endpoint = os.getenv("MODEL_ENDPOINT", default="http://0.0.0.0:8001")
 endpoint = f"{endpoint}/inference"
 endpoint_bearer = os.getenv("MODEL_ENDPOINT_BEARER")
